@@ -1,8 +1,31 @@
- * {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-   box-sizing: border-box;
-   margin: 0;
-   padding: 0;
- }
+* {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
- 
+body {
+  background: #e8e8e8;
+}
+
+.menu__container--list {
+  list-style: none;
+  background: black;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu__container--list li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.menu__container--list li a:hover {
+  background: #ef8354;
+}
